@@ -33,9 +33,8 @@ From the summarized table, the linear regression model received a score of 4.0 f
 
 Table 2. Scoring matrix for LR 
 
-4.2 Solution 2: 
+Solution 2: Random Forest Regression
 
-Random Forest Regression
 One of the most fundamental and popular method for various machine learning task is decision trees. Tree learning “comes closest to meeting the requirements for serving as an off-the-shelf procedure for data mining”, say Hastie et al. [5]. Decision tree is invariant under scaling and various other transformations of feature values, and it is robust to inclusion of irrelevant features, and produces inspectable models. Random Forest is based on having multiple decision trees, and ensemble those tree’s result to get a regression value.
 Given a standard training set D of size n, bagging generates m new training sets D_i, each of size n′, by sampling from D uniformly and with replacement. This kind of sample is known as a bootstrap sample. The m models are fitted using the above m bootstrap samples and combined by averaging the output (for regression) or voting (for classification). 
 Random Forest Algorithm [3]: 
